@@ -1,0 +1,15 @@
+h1 , h2{
+    color:gray;
+    text-align: center;
+    margin: 20px 0;   
+    
+} 
+.parrafo {
+    margin: 20px 140px;
+}
+
+.lista{
+    align-items: center;
+     display: flex; 
+     flex-direction: column;
+}
