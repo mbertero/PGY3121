@@ -1,34 +1,138 @@
-h1 , h2{
-    color:gray;
+.colaboradores {
+    margin: 60px 20px;
     text-align: center;
-    margin: 20px 0;   
     
-} 
-.parrafo {
-    margin: 20px 140px;
-}
-
-.lista{
-    align-items: center;
-     display: flex; 
-     flex-direction: column;
 }
 
 
-.perro {
-    width :200;
-    height: 200; 
-    float: center;
-    margin: 20px 90px;
+.adopta {
+    margin: 60px 20px;
+    text-align: center;
+    
+}
+.container {
+    margin: 60px 20px 20px 30px;
+    
 }
 
-img {
-    margin: 20px 60px;
-    float: center;
-    width: 200px;
-    height: 200px;
+.carousel-item {
+  max-width: 100%;
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .card-columns  {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: 230px ; 
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
   }
 
-.container {
-    text-align: center;
+  .contenedor {
+    margin: 50 px 50 px;
+  }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+ footer{
+  background: #3C3938 ;
+  height: auto;
+  width: 100vw;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  padding-top: 40px;
+  color: #fff;
+ }
+
+ .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align:center ;
+
+
+ }
+ .footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+ }
+
+ .footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+ }
+ .socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:1rem 0 3rem 0;
+ }
+ .socials li {
+  margin: 0 10px;
+ }
+
+ .socials a {
+  text-decoration: none;
+  color: #fff; 
 }
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: aqua;
+}
+.footer-bottom{
+  background: #3C3938 ;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+ font-size: 14px;
+ word-spacing: 2px;
+ text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;;
+}
+
+.card-img {
+  max-width: 100%;
+  height: 65vh;
+  min-height: 300px;
+}
+
+.ficha h1{
+  text-align: center;
+}
+.ficha p{
+  margin: 10px 10px;
+  justify-content: center;
+  }
+
+
+
+
+
