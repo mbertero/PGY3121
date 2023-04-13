@@ -124,15 +124,25 @@
   min-height: 300px;
 }
 
-.ficha h1{
+#ficha {
   text-align: center;
-}
-.ficha p{
-  margin: 10px 10px;
+  margin: 10px 10px 20px 20px;
   justify-content: center;
-  }
+}
 
 
+#portada-gato {
+  margin-top: 300px;
+}
 
+#portada-perro {
+  margin-top: 300px;
+}
+
+#lista{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: medium;
+}
 
 
