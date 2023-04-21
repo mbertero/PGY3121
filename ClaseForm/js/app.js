@@ -14,3 +14,9 @@ var suma = nt1 + nt2+nt3;
 var promedio = suma/3;
 console.log("La suma de sus notas es: ", suma);
 console.log("El promedio de sus notas es: ", promedio);
+
+if (promedio >= 4) {
+    console.log("Aprobado");
+}else{
+    console.log("Reprobado");
+}
