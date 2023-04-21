@@ -11,4 +11,6 @@ var nt2 = 2.0;
 var nt3 = 7.0;
 
 var suma = nt1 + nt2+nt3;
+var promedio = suma/3;
 console.log("La suma de sus notas es: ", suma);
+console.log("El promedio de sus notas es: ", promedio);
