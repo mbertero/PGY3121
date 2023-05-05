@@ -24,4 +24,5 @@ $(document).ready(function  () {
 
      //Modificar estilos de etiquetas del DOM [css]
      $('#parr1').css('color', 'blue');
+     $('#parr2').css({color:  'red', background: 'green'});
 });
