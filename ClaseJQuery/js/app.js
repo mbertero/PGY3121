@@ -25,4 +25,11 @@ $(document).ready(function  () {
      //Modificar estilos de etiquetas del DOM [css]
      $('#parr1').css('color', 'blue');
      $('#parr2').css({color:  'red', background: 'green'});
+
+     //Capturar eventos (click)
+     $('.btn-success').click(function (e) { 
+      
+        vParrafo = document.getElementById('resultado');
+        vParrafo.addClass('display-6')
+     });
 });
