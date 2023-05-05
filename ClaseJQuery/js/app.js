@@ -13,5 +13,11 @@ $(document).ready(function  () {
 
     //Agregar - quitar clase a etiqueta del DOM
     $('#IdGlosa').addClass('display-2');
+    $('#IdGlosa').removeClass('display-6');
 
+    //Agregar , quitar etiquetas del DOM [append, prepend]
+
+    $('#articulos').append('<p>Artículo nuevo agregado al final del contenedor');
+    $('#articulos').prepend('<p>Artículo nuevo agregado al inicio del contenedor');
+     //$('#parr3').remove();
 });
