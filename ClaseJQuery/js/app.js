@@ -19,5 +19,9 @@ $(document).ready(function  () {
 
     $('#articulos').append('<p>Artículo nuevo agregado al final del contenedor');
     $('#articulos').prepend('<p>Artículo nuevo agregado al inicio del contenedor');
-     //$('#parr3').remove();
+     $('#parr3').remove();
+
+
+     //Modificar estilos de etiquetas del DOM [css]
+     $('#parr1').css('color', 'blue');
 });
