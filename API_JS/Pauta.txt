@@ -1,0 +1,12 @@
+CONSUMO API METODO AJAX con XMLHttpRequest
+1.- Instanciar una variable de objeto       [ XMLHttpRequest ]
+2.- Asignar los eventos segun la petición   [ addEventListener ]
+3.- Abrir petición según Metodo             [ GET,POST ]
+4.- Enviar Petición al servidor             [ Metodo send ]
+
+    Programando funcion callback            [(e)=>{}]
+
+==================================================================
+
+Link Tutorial 
+https://www.youtube.com/watch?v=6CQrK1sS7WA
