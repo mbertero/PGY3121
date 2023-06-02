@@ -7,6 +7,6 @@ urlpatterns = [
   path('index', views.index, name='index'),
   path('listadoSQL', views.listadoSQL, name='listadoSQL'),
   path('base', views.base, name='base'),
-  path('home', views.home, name='home'),
+  path('', views.home, name='home'),
 ] 
 

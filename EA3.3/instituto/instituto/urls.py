@@ -18,7 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('alumnos/',include('alumnos.urls'))
+    path('',include('alumnos.urls'))
 ]
 
 print("paso por urls de instituto")
